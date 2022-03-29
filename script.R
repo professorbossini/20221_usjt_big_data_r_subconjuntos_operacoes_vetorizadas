@@ -50,3 +50,36 @@ m
 m[2:3, 2:4]
 
 m[2:3, c(2, 4)]
+
+
+x <- list (
+  foo = 1:4,
+  bar = 0.6,
+  msg = c('hello', 'world'),
+  quiz = list (5, 7, 3)
+)
+x
+
+x$foo
+x$bar
+x$msg
+x$quiz
+
+x$quiz[1]
+
+x$bar
+x['bar']
+x
+x[c(1, 3)]
+
+x$msg
+x$m
+x$ms
+x$msgg
+x$fruta
+x$foo
+x <- c(x, list (fruta = "limao"))
+x
+x$fo
+
+
