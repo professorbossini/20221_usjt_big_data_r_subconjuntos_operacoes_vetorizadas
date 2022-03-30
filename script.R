@@ -82,4 +82,78 @@ x <- c(x, list (fruta = "limao"))
 x
 x$fo
 
+d <- data.frame(foo = 6.8, bar = c(T, F, T))
+d
+d$f
+d$b
+d[['b', exact = F]]
+d
+
+d$quiz <- c ('cat', 'dog', 'rat')
+d
+names(d)[names(d) == "foo"] <- "tmp"
+d
+
+#1 > 2 & 3 > 2
+#1 < 2 | f()
+
+a <- 1:5; a
+a + 10
+
+a ^ 2
+
+2 ** a
+
+a %% 2
+
+a %/% 4
+
+a ^  2
+(a ^ 2) > 10
+a
+a < 4
+2 ^ (a < 4)
+
+2 ^ F
+2 ^ T
+
+b <- c (T, F, F, T, F, T, F); b;
+c <- c(F, F, T, T, T, F, F); c;
+b
+c
+
+b | c
+
+b
+c
+b & c
+
+c(T, F) & c(T, T, T, F)
+c(T, F) & c(T, T, T)
+
+!b
+
+c(T) && c(T)
+c(T) && c(F)
+
+c(T) || c(T)
+c(T) || c(F)
+c(F) || c(F)
+
+c(T, F) && c(F, F)
+
+c(F, T) || c(FALSE, T)
+
+c(T, F) && c(T, T, T)
+
+#a variavel teste nao existe
+teste > 0
+c(T) || c(T)
+b
+b || (teste > 0)
+b && (teste > 0)
+
+
+
+
 
