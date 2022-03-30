@@ -153,7 +153,23 @@ b
 b || (teste > 0)
 b && (teste > 0)
 
+x <- c(T, F, NA)
+x
 
+outer(x, x, '&')
 
+a <- 1:4
+b <- 5:8
+a
+b
+a / b
 
+x <- matrix(1:4, nrow=2, ncol=2);x
+y <-matrix(10, nrow=2, ncol=2);y
 
+y - x
+x
+y
+x * y
+
+x %*% y
